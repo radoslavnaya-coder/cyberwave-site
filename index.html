@@ -3,8 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/main.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="/js/draw.js"></script>
+    <script src="https://js.cx/libs/animate.js"></script>
     <title>CyberWave</title>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -21,11 +28,50 @@
       </nav>
     </header>
     <section class="welcome-title">
+      <div class="js--text-cont"></div>
       <h1>Разработка сайтов</h1>
       <p>Прокатитесь на волне цифровых возможностей с нами!</p>
       <div class="welcome-title__images">
         <img src="/img/welcome-title.jpg" />
       </div>
     </section>
+    <section class="container">
+      <h3>О нас</h3>
+      <div class="about">
+        <div>
+          <p>
+            CyberWave - это маленькая онлайн-студия, занимающаяся разработкой
+            сайтов для коммерческих предприятий.
+          </p>
+          <p>С нами опыт разработки и продвижения сайтов более 5 лет.</p>
+          <br />
+          <p>Почему нас выбирают?</p>
+          <ul>
+            <li>
+              Надежность разработанных систем за счёт продуманной архитектуры.
+            </li>
+            <li>
+              Возможность дальнейшего развития сайта другими программистами
+            </li>
+            <li>
+              Исправление непредвиденных ситуаций после запуска сайта за наш
+              счёт
+            </li>
+          </ul>
+        </div>
+        <div class="wave-ring__container">
+          <img src="/img/about.jpg" alt="О нас" />
+          <div class="wave-ring">
+            <canvas></canvas>
+            <script src="/js/script.js"></script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <h3>Законченные проекты</h3>
+      <!-- Баннер со стрелками -->
+    </section>
+    <footer class="container"></footer>
   </body>
 </html>
